@@ -35,11 +35,11 @@ IOS - use {host:port}/webapp
 ```
 ## Author recomendation key mapping
 
-stratagem menu - right control
-stratagem up - arrow up
-stratagem down - arrow down
-stratagem left - arrow left
-stratagem right - arrow right
+- stratagem menu - right control
+- stratagem up - arrow up
+- stratagem down - arrow down
+- stratagem left - arrow left
+- stratagem right - arrow right
 
 ## Example
 - "sequence": ["right","up","down","down","right"]
@@ -51,8 +51,8 @@ stratagem right - arrow right
 - Real eexecuted sequence is ["D","W","S","S","D"]
 
 ## Key mapping
-
-"tab" = VK_TAB
+```
+	"tab" = VK_TAB
 	"enter" = VK_ENTER
 	"esc" = VK_ESC
 	"backspace" = VK_BACKSPACE
@@ -152,5 +152,5 @@ stratagem right - arrow right
 	"B" = VK_B
 	"N" = VK_N
 	"M" = VK_M
-
+```
 

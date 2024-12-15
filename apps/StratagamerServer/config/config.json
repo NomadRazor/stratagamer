@@ -1,0 +1,14 @@
+{
+    "port":"3030",
+    "suppliesFile":"hd2supply.json",
+    "stratagemKeyCode":"rctrl",
+    "gameWindowTitle":"HELLDIVERS™ 2",
+    "cloudGaming":0,
+    "minDelay":30,
+    "maxDelay":50,
+    "remapKeys":false,
+    "stratagemUP":"up",
+    "stratagemDOWN":"down",
+    "stratagemLEFT":"left",
+    "stratagemRIGHT":"right"
+}

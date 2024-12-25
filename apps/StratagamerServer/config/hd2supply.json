@@ -452,6 +452,16 @@
                     "activation": 3,
                     "icon":"Commando.svg",
                     "class":"supply"
+                },
+                {
+                    "name": "StA-X3 W.A.S.P. Launcher",
+                    "code": "WASP",
+                    "sequence": ["down","down","up","down","right"],
+                    "cooldown": 480,
+                    "uses": "Unlimited",
+                    "activation": 8,
+                    "icon":"StA-X3 W.A.S.P. Launcher.svg",
+                    "class":"supply"
                 }
                 
             ]

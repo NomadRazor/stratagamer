@@ -656,6 +656,16 @@
                     "class":"supply"
                 },
                 {
+                    "name": "M-102 Fast Recon Vehicle",
+                    "code": "Vehicle",
+                    "sequence": ["left","down","right","down","right","down","up"],
+                    "cooldown": 480,
+                    "uses": "Unlimited",
+                    "activation": 11,
+                    "icon":"Fast Recon Vehicle.svg",
+                    "class":"supply"
+                },
+                {
                     "name": "Eagle Strafing Run",
                     "code": "Strafing",
                     "sequence": ["up","right","right"],

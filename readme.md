@@ -12,7 +12,7 @@ BY DEFAULT USED ARROWS MAPPING IF "remapKeys":false,
 4. Run server after you run game
 5. Recomendation: change key mapping in game for stratagems on arrows and rightcontrol
 
-## For update stratagems
+## Manual update stratagems
 
 - Download **config/hd2supply.json**
 - Download **data** folder or concrete picture

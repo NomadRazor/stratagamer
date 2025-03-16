@@ -249,6 +249,16 @@
                     "activation": 5,
                     "icon":"Shield Generator Pack.svg",
                     "class":"supply"
+                },
+                {
+                    "name": "MD-8 Gas Mine",
+                    "code": "GasMine",
+                    "sequence": ["down","left","left","right"],
+                    "cooldown": 120,
+                    "uses": "Unlimited",
+                    "activation": 5,
+                    "icon":"Gas Mine.svg",
+                    "class":"supply"
                 }
             ]
         },
@@ -806,6 +816,22 @@
                     "activation": 5,
                     "icon":"Flame Sentry.svg",
                     "class":"defensive"
+                }
+            ]
+        },
+        {
+            "id": "SoF",
+            "group": "Servants of Freedom",
+            "stratagems": [
+                {
+                    "name": "B-100 Hellbomb Portable",
+                    "code": "Hellbomb",
+                    "sequence": ["down","right","up","up","up"],
+                    "cooldown": 300,
+                    "uses": "Unlimited",
+                    "activation": 10,
+                    "icon":"Hellbomb Portable.svg",
+                    "class":"supply"
                 }
             ]
         }

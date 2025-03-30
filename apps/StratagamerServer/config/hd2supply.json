@@ -258,7 +258,17 @@
                     "uses": "ထ",
                     "activation": 5,
                     "icon":"Gas Mine.svg",
-                    "class":"supply"
+                    "class":"defensive"
+                },
+                {
+                    "name": "E/GL-21 Grenadier Battlement",
+                    "code": "EGLGB",
+                    "sequence": ["down","right","down","left","right"],
+                    "cooldown": 128,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"Grenadier Battlement.svg",
+                    "class":"defensive"
                 }
             ]
         },

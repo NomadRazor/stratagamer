@@ -860,6 +860,22 @@
                     "class":"supply"
                 }
             ]
+        }, 
+        {
+            "id": "MoC",
+            "group": "Masters of Ceremony",
+            "stratagems": [
+                {
+                    "name": "CQC-1 One True Flag",
+                    "code": "OTFlag",
+                    "sequence": ["down","left","right","right","up"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"One True Flag.svg",
+                    "class":"supply"
+                }
+            ]
         }
     ]
 }

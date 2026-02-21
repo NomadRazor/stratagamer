@@ -133,6 +133,26 @@
                     "activation": 0,
                     "icon":"Tectonic Drill.svg",
                     "class":"mission"
+                },
+                {
+                    "name": "Cargo Container",
+                    "code": "CargoContainer",
+                    "sequence": ["up","up","down","down","right","down"],
+                    "cooldown": 0,
+                    "uses": "1",
+                    "activation": 0,
+                    "icon":"Cargo Container.svg",
+                    "class":"mission"
+                },
+                {
+                    "name": "Call In Super Destroyer",
+                    "code": "SuperDestroyer",
+                    "sequence": ["up","up","down","down","left","right","left","right"],
+                    "cooldown": 0,
+                    "uses": "1",
+                    "activation": 0,
+                    "icon":"Call In Super Destroyer.svg",
+                    "class":"mission"
                 }
             ]
         },
@@ -871,8 +891,204 @@
                     "sequence": ["down","left","right","right","up"],
                     "cooldown": 480,
                     "uses": "ထ",
-                    "activation": 5,
+                    "activation": 12,
                     "icon":"One True Flag.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+        {
+            "id": "FoL",
+            "group": "Force of Law",
+            "stratagems": [
+                {
+                    "name": "GL-52 De-Escalator",
+                    "code": "GL52",
+                    "sequence": ["left","right","up","left","right"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 3,
+                    "icon":"GL-52 De-Escalator.svg",
+                    "class":"supply"
+                },
+                 {
+                    "name": "Guard Dog K-9",
+                    "code": "GuardDogK9",
+                    "sequence": ["down","up","left","up","right","left"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 10,
+                    "icon":"Guard Dog K-9.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+        {
+            "id": "CG",
+            "group": "Control Group",
+            "stratagems": [
+                {
+                    "name": "PLAS-45 Epoch",
+                    "code": "Epoch",
+                    "sequence": ["down","left","up","left","right"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"Epoch.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "A/LAS-98 Laser Sentry",
+                    "code": "LaserSentry",
+                    "sequence": ["down","up","right","down","up","right"],
+                    "cooldown": 180,
+                    "uses": "ထ",
+                    "activation": 3,
+                    "icon":"Laser Sentry.svg",
+                    "class":"defensive"
+                },
+                {
+                    "name": "LIFT-182 Warp Pack",
+                    "code": "WarpPack",
+                    "sequence": ["down","left","right","down","left","right"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 10,
+                    "icon":"Warp Pack.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+        {
+            "id": "DD",
+            "group": "Dust Devils",
+            "stratagems": [
+                {
+                    "name": "S-11 Speargun",
+                    "code": "Speargun",
+                    "sequence": ["down","right","down","left","up","right"],
+                    "cooldown": 410,
+                    "uses": "ထ",
+                    "activation": 8,
+                    "icon":"Speargun.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "M5-11 Solo Silo",
+                    "code": "SoloSilo",
+                    "sequence": ["down","up","right","down","down"],
+                    "cooldown": 180,
+                    "uses": "ထ",
+                    "activation": 8,
+                    "icon":"Solo Silo.svg",
+                    "class":"defensive"
+                },
+                {
+                    "name": "EAT-700 Expendable Napalm",
+                    "code": "EAT700",
+                    "sequence": ["down","down","left","up","left"],
+                    "cooldown": 140,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"Expendable Napalm.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+         {
+            "id": "PthC",
+            "group": "Python Commandos",
+            "stratagems": [
+                {
+                    "name": "CQC-9 Defoliation Tool",
+                    "code": "DefoliationTool",
+                    "sequence": ["down","left","right","right","down"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 8,
+                    "icon":"Defoliation Tool.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "M-1000 Maxigun",
+                    "code": "M1000",
+                    "sequence": ["down","left","right","down","up","up"],
+                    "cooldown": 410,
+                    "uses": "ထ",
+                    "activation": 8,
+                    "icon":"Maxigun.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "AX/FLAM-75 Guard Dog Hot Dog",
+                    "code": "HotDog",
+                    "sequence": ["down","up","left","up","left","left"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation":10,
+                    "icon":"Guard Dog Hot Dog.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+         {
+            "id": "RR",
+            "group": "Redacted Regiment",
+            "stratagems": [
+                {
+                    "name": "C4 Pack",
+                    "code": "C4Pack",
+                    "sequence": ["down","right","up","up","right","up"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"C4 Pack.svg",
+                    "class":"supply"
+                }
+            ]
+        },
+        {
+            "id": "SB",
+            "group": "Siege Breakers",
+            "stratagems": [
+                {
+                    "name": "GL-28 Belt-Fed Grenade Launcher",
+                    "code": "GL28",
+                    "sequence": ["down","left","up","left","up","up"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"GL-28.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "EAT-411 Leveller",
+                    "code": "EAT411",
+                    "sequence": ["down","down","left","up","down"],
+                    "cooldown": 120,
+                    "uses": "ထ",
+                    "activation": 2,
+                    "icon":"EAT-411.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "CQC-20 Breaching Hammer",
+                    "code": "BreachingHammer",
+                    "sequence": ["down","left","right","left","up"],
+                    "cooldown": 480,
+                    "uses": "ထ",
+                    "activation": 5,
+                    "icon":"CQC-20.svg",
+                    "class":"supply"
+                },
+                {
+                    "name": "Bastion MK XVI",
+                    "code": "BastionMK",
+                    "sequence": ["left","down","right","down","left","down","up","down","up"],
+                    "cooldown": 780,
+                    "uses": "ထ",
+                    "activation": 11,
+                    "icon":"Bastion MK XVI.svg",
                     "class":"supply"
                 }
             ]

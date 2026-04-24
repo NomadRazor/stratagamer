@@ -172,7 +172,7 @@
                 },
                 {
                     "name": "MD-17 Anti-Tank Mines",
-                    "code": "AntiTank",
+                    "code": "MD17",
                     "sequence": ["down","left","up","up"],
                     "cooldown": 180,
                     "uses": "ထ",
@@ -405,7 +405,7 @@
                 },
                 {
                     "name": "EAT-17 Expendable Anti-tank",
-                    "code": "AntiTank",
+                    "code": "EAT17",
                     "sequence": ["down","down","left","up","right"],
                     "cooldown": 70,
                     "uses": "ထ",

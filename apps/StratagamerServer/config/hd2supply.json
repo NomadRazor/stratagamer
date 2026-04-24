@@ -904,7 +904,7 @@
                 {
                     "name": "GL-52 De-Escalator",
                     "code": "GL52",
-                    "sequence": ["left","right","up","left","right"],
+                    "sequence": ["down","right","up","left","right"],
                     "cooldown": 480,
                     "uses": "ထ",
                     "activation": 3,

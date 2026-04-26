@@ -2,6 +2,11 @@
 "Stratagamer" - it's software which working like a macros programms (Razer Synapse, AHK, etc.) for call stratagems as fast as possible.
 Designed and developed especially for Helldivers 2 on PC platform (Windows), with android app and web version for iOS. 
 
+## UPDATE 2026: 
+
+- Auto laoding **hd2supply.json** file from github if local file is not exists.
+- Stratagem code is unique now, so data can updates partially for effective way of sync with github
+
 ## Run prerequsites
 
 BY DEFAULT USED ARROWS MAPPING IF "remapKeys":false,
